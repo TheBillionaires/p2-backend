@@ -9,6 +9,7 @@ public interface BookingsService {
 	
 	List<Bookings> findByLocation(String location);
 	List<Bookings> findByPaid(boolean paid);
+	List<Bookings> findByUsersID(int usersID);
 	
 	public Bookings viewBooking (int id);
 	public void addBooking (Bookings booking);

@@ -42,6 +42,12 @@ public class BookingsController {
 		// TODO Auto-generated method stub
 		return bookingService.findByLocation(location);
 	}
+	
+	@GetMapping("/bookings/users/{usersID}")
+	public List<Bookings> findByUsersID(@PathVariable int usersID) {
+		// TODO Auto-generated method stub
+		return bookingService.findByUsersID(usersID);
+	}
 
 	@PostMapping("/bookings")
 	public void addBooking(@RequestBody Bookings booking) {

@@ -31,6 +31,12 @@ public class BookingsServiceImpl implements BookingsService{
 		// TODO Auto-generated method stub
 		return bookingsRepo.findByPaid(paid);
 	}
+	
+	@Override
+	public List<Bookings> findByUsersID(int usersID) {
+		// TODO Auto-generated method stub
+		return bookingsRepo.findByUsersID(usersID);
+	}
 
 	@Override
 	public Bookings viewBooking(int id) {

@@ -30,4 +30,6 @@ public class Bookings {
 	private float cost;
 	@Column(name = "paid")
 	private boolean paid;
+	@Column(name = "usersID")
+	private int usersID;
 }

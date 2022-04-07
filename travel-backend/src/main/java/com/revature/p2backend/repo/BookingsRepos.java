@@ -10,4 +10,5 @@ public interface BookingsRepos extends JpaRepository<Bookings, Integer>{
 
 	List<Bookings> findByLocation(String location);
 	List<Bookings> findByPaid(boolean paid);
+	List<Bookings> findByUsersID(int usersID);
 }
