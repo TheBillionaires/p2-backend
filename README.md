@@ -4,4 +4,4 @@ Make sure to change the password in application.properties.
 
 MySQL table for bookings:
 
-![Screenshot 2022-04-06 165838](https://user-images.githubusercontent.com/102680541/162079074-6a921bdf-3e69-455d-9120-d95b9e929218.jpg)
+![Screenshot 2022-04-07 002204](https://user-images.githubusercontent.com/102680541/162125977-5846d874-5911-4c67-a728-2f9c5b00f562.jpg)
